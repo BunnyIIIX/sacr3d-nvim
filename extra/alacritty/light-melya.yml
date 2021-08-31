@@ -1,0 +1,37 @@
+# Sacr3d Light
+colors:
+  # Default colors
+  primary:
+    background: '#fbfbfb'
+    foreground: '#0e171c'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '#0e171c'
+    cursor: '#fbfbfb'
+
+  # Normal colors
+  normal:
+    black:   '#393b44'
+    red:     '#b0304e'
+    green:   '#76ab49'
+    yellow:  '#ffce1f'
+    blue:    '#157c8e'
+    magenta: '#a414cc'
+    cyan:    '#63cdcf'
+    white:   '#dfdfe0'
+
+  # Bright colors
+  bright:
+    black:   '#7f8c98'
+    red:     '#d84652'
+    green:   '#58cd8b'
+    yellow:  '#ffe37e'
+    blue:    '#84cee4'
+    magenta: '#b8a1e3'
+    cyan:    '#59f0ff'
+    white:   '#0e171c'
+
+  indexed_colors:
+    - { index: 16, color: '#ffce1f' }
+    - { index: 17, color: '#d84652' }
