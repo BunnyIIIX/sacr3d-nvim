@@ -2,7 +2,7 @@
 local config = {}
 
 config.options = {
-	colorscheme = "neon_sacr3d.,
+	colorscheme = "neon_sacr3d",
 	transparency = false,
 	term_colors = false,
 	styles = {
@@ -27,10 +27,10 @@ config.options = {
 		lsp_saga = false,
 		gitgutter = false,
 		gitsigns = false,
-		telescope = false,
+		telescope = true,
 		nvimtree = {
-			enabled = false,
-			show_root = false,
+			enabled = true,
+			show_root = true,
 		},
 		which_key = false,
 		indent_blankline = false,
@@ -40,7 +40,7 @@ config.options = {
 		fern = false,
 		barbar = false,
 		bufferline = false,
-		markdown = false,
+		markdown = true,
 	},
 }
 

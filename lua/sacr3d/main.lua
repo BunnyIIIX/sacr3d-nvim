@@ -3,7 +3,7 @@ local M = {}
 local utils = require("sacr3d.utils.util")
 
 local function load(colorscheme)
-	local sacr3d.= require("sacr3d.)
+	local sacr3d = require("sacr3d")
 
 	if sacr3d.before_loading ~= nil then
 		sacr3d.before_loading()
@@ -30,7 +30,7 @@ function M.main(option, args)
 	elseif option == "clear" then
 		clear()
 	else
-		print("sacr3d. option was not recognized")
+		print("sacr3d  option was not recognized")
 	end
 end
 

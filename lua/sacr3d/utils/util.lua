@@ -146,7 +146,7 @@ function util.load(theme)
 		vim.cmd("syntax reset")
 	end
 
-	g.colors_name = "sacr3d.
+	g.colors_name = "sacr3d"
 
 	util.properties(theme.properties)
 	util.syntax(theme.base)

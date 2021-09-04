@@ -17,9 +17,9 @@ function M.get_color_scheme(cs)
 	if not good then
 		return {
 			status = false,
-			msg = "sacr3d. the colorscheme '" .. cs .. "' was not recognized. Defaulting to Dark sacr3d.",
+			msg = "sacr3d the colorscheme '" .. cs .. "' was not recognized. Defaulting to Dark sacr3d",
 		},
-			require("sacr3d.color_schemes.dark_sacr3d.)
+			require("sacr3d.color_schemes.dark_sacr3d")
 	end
 
 	if not (next(remaps) == nil) then
